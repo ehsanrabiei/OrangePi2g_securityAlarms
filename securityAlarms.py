@@ -72,7 +72,7 @@ def SendMain(ImgFileName , alert) :
 	image = MIMEImage(img_data, name=os.path.basename(ImgFileName))
 	msg.attach(image)
 
-	s = smtplib.SMTP('#mailServer.blackrainbow.pro', ) # email server info , name and port ( 587)
+	s = smtplib.SMTP('#mailServer.blackrainbow.pro', #PORT ) # email server info , name and port ( 587)
 	s.ehlo()
 	s.starttls()
 	s.ehlo()
