@@ -1,4 +1,5 @@
 
+#Orange pi 2g iot 
 from periphery import GPIO
 from time import sleep
 import signal
